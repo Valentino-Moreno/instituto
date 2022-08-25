@@ -1,0 +1,557 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* GRIDDDDDD */
+.ini {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "inicio"
+    "años"
+    "estudiantes"
+    "oficial"
+    "online"
+    "footer";
+}
+
+/* ESTILOS DEL HEADER */
+header {
+  grid-area: header;
+}
+
+.logo {
+  height: 50px;
+}
+
+.bk{
+  background-color: #fff4d4 ;
+  padding: 0;
+  
+}
+
+
+
+/* ESTILOS DEL FOOTER */
+
+footer {
+  grid-area: footer;
+  background-color: #fff4d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.footmail {
+  padding: 20px 0px 20px 0px;
+}
+
+.footmail p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.sociales {
+  display: flex;
+  font-size: 25px;
+}
+
+.sociales p {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+}
+
+/* ESTILOS inicio */
+
+#inicio {
+  grid-area: inicio;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/londres.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 200px 10px 250px 10px;
+}
+#inicio h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#inicio p {
+  padding-top: 10px;
+  font-size: 1em;
+}
+.linea {
+  border-bottom: solid 2px #829bad;
+  width: 80%;
+  padding-bottom: 10px;
+  /* padding-top: 80px; */
+}
+
+/* ACA estan los cuatro cartelitos del index */
+.modulo {
+  background-color: #04395e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px 60px 20px;
+  flex-direction: column;
+}
+
+.modulo p {
+  padding-bottom: 30px;
+}
+.calendar {
+  font-size: 50px;
+}
+.años {
+  grid-area: años;
+}
+.estudiantes {
+  grid-area: estudiantes;
+  background-color: #6c0e23;
+}
+
+.oficial {
+  grid-area: oficial;
+  background-color: #031d44;
+}
+
+.online {
+  grid-area: online;
+  background-color: #c42021;
+}
+
+/* ---------------- */
+/* SECCION DE NIVELES */
+/* GRID de niveles */
+.niv {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "niveles"
+    "conoce"
+    "a1"
+    "a2"
+    "b1"
+    "b2"
+    "c1"
+    "c2"
+    "dedicacion"
+    "esfuerzo"
+    "tips"
+    "footer";
+}
+/* -------------- */
+.conoce {
+  grid-area: conoce;
+}
+.a1 {
+  grid-area: a1;
+}
+.a2 {
+  grid-area: a2;
+}
+.b1 {
+  grid-area: b1;
+}
+
+.b2 {
+  grid-area: b2;
+}
+
+.c1 {
+  grid-area: c1;
+}
+
+.c2 {
+  grid-area: c2;
+}
+
+.niveles {
+  grid-area: niveles;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/niveles.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 200px 25px 200px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.niveles h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+.niveles p {
+  font-size: 2em;
+  padding-top: 20px;
+}
+
+.nivel {
+  background-color: #6c0e23;
+  display: flex;
+  flex-direction: column;
+  color: #fff4d4;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 15px 100px 15px;
+}
+.azul {
+  background-color: #031d44;
+}
+.nivel h3 {
+  font-size: 2em;
+}
+.nivel p {
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+
+.esfuerzo {
+  grid-area: esfuerzo;
+  display: none;
+}
+
+.dedicacion {
+  grid-area: dedicacion;
+  display: none;
+}
+
+.tips {
+  grid-area: tips;
+  background-color: #041938;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tips h2 {
+  text-align: center;
+}
+.tips li {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+}
+
+/* ESTILOS METODOLOGIAS */
+
+/* .met{
+  display: grid;
+  grid-template-areas:
+  ""
+  ""
+  ""
+  ;
+} */
+
+.meto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(img/metodos.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #6c0e23;
+}
+
+.meto .foto {
+  display: none;
+}
+
+.meto h2 {
+  font-size: 3em;
+  background-color: #064e81ea;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.meto button {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 2em;
+  background-color: #6c0e23;
+  border-radius: 15px;
+  border: solid 1px black;
+  color: white;
+  text-transform: uppercase;
+}
+#metodos {
+  display: flex;
+  flex-direction: column;
+  background-color: #031d44;
+  padding: 100px 20px 100px 20px;
+}
+
+.eaa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #04395e;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  color: white;
+  transition: 0.5s;
+}
+
+.eaa:hover{
+  padding:40px; 
+  background-color: #04395e;
+  /* font-size: 1.2em; */
+}
+
+.eaa p {
+  padding-top: 15px;
+}
+
+/* ESTILOS PLANES DE ESTUDIO */
+
+.planes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(img/metodos.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 30px 200px 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  grid-area: planes;
+}
+
+.planes h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.planes p {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  background-color: #829badce;
+  padding: 20px;
+  border-radius: 15px;
+}
+/* Estilos planes */
+.planes-uni {
+  background-color: #4385b4d2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+  grid-area: planes-uni;
+}
+.planes-uni h2 {
+  font-size: 2em;
+  padding: 30px 20px 30px 20px;
+}
+.plancito {
+  background-color: #04395e;
+  padding: 100px 20px 100px 20px;
+  border-radius: 15px;
+  margin: 20px;
+  background-size: cover;
+}
+
+.plancito h2 {
+  padding-bottom: 10px;
+  font-size: 2em;
+}
+
+.plancito p {
+  font-size: 1.5em;
+}
+
+/* CONTACTO */
+
+.contacto {
+  background-color: #04395e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 1024px) {
+  /* responsive index */
+  .ini {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "inicio inicio"
+      "años estudiantes"
+      "oficial online"
+      "footer footer";
+  }
+
+  .espa {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+  }
+
+  header a {
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #031d44;
+  }
+  header a:hover {
+    color: #00388b;
+  }
+
+  .menu {
+    display: none;
+  }
+  .logo {
+    height: 80px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #inicio h1 {
+    font-size: 5em;
+  }
+  #inicio p {
+    font-size: 3em;
+    max-width: 80%;
+  }
+  .linea {
+    border-bottom: #829bad 4px solid;
+    width: 90%;
+  }
+
+  .modulo {
+    padding: 50px 20px 50px 20px;
+  }
+  .parr {
+    font-size: 2em;
+    max-width: 80%;
+  }
+  .calendar {
+    font-size: 8em;
+  }
+  /* responsive niveles */
+  .niv {
+    display: grid;
+    grid-template-areas:
+      "header header header header header"
+      "niveles niveles niveles niveles niveles"
+      "a1 dedicacion b1 tips tips"
+      "a2 conoce b2 tips tips"
+      "c1 esfuerzo c2 tips tips"
+      "footer footer footer footer footer";
+    /* grid-column-gap:5px ;
+    grid-row-gap: 5px; */
+  }
+  .esfuerzo {
+    display: block;
+  }
+  .dedicacion {
+    display: block;
+  }
+  .nivel {
+    background-color: #04395e;
+    margin: 5px;
+  }
+
+  .niveles h1 {
+    font-size: 8em;
+  }
+
+  .niveles p {
+    font-size: 3em;
+  }
+  .tips {
+    margin: 5px;
+  }
+  /* RESPONSIVE METODOS */
+  #metodos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .eaa {
+    max-width: 33%;
+  }
+  .plangrid {
+    display: grid;
+    grid-template-areas:
+      "header "
+      "planes"
+      "planes-uni"
+      "footer ";
+  }
+  .planes-uni {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
