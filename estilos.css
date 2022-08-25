@@ -423,16 +423,57 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 800px;
+}
+
+.conta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f74269a6;
+  padding: 40px 40px 40px 20px;
+  margin: 30px;
+  -webkit-box-shadow: 26px 24px 57px 1px rgba(82,76,82,0.86);
+-moz-box-shadow: 26px 24px 57px 1px rgba(82,76,82,0.86);
+box-shadow: 26px 24px 57px 1px rgba(82,76,82,0.86);
 }
 
 form{
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
-form input{
-  padding: 20px 300px 20px 10px;
+.inp{
+  padding: 15px 120px 15px 10px;
+  margin: 8px;
+  background-color: #f7426900;
+  border-top: none;
+  border-right: none;
+  border-left: solid 2px rgba(27, 20, 20, 0.726);
+  border-bottom: solid 2px rgba(27, 20, 20, 0.726);
+  color: #829bad;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.enviar{
+  display: flex;
+  justify-content: center;
+}
+
+.enviar button{
+  background-color: #6c0e224b;
+  border: none;
+  font-size: 2em;
+  transition: all 0.5s;
+}
+
+
+.enviar button:hover{
+  background-color: #9b1e39;
+  /* font-size:2.2em; */
+  transform: translateX(10px);
 }
 
 /* RESPONSIVE */
