@@ -287,6 +287,7 @@ footer {
   align-items: center;
   text-align: center;
   color: #6c0e23;
+
 }
 
 .meto .foto {
@@ -333,7 +334,7 @@ footer {
 
 .eaa:hover{
   padding:40px; 
-  background-color: #04395e;
+  background-color: #0067b1;
   /* font-size: 1.2em; */
 }
 
@@ -384,25 +385,35 @@ footer {
 }
 .planes-uni h2 {
   font-size: 2em;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 0px 30px 0px;
 }
 .plancito {
-  background-color: #04395e;
-  padding: 100px 20px 100px 20px;
+  background-color: #24628f;
+  padding: 10px 20px 10px 20px;
   border-radius: 15px;
   margin: 20px;
+  font-size: 1em;
+  text-align:center;
   background-size: cover;
+  min-height: 570px;
 }
 
-.plancito h2 {
+.plancito h3 {
   padding-bottom: 10px;
-  font-size: 2em;
+  font-size: 1.6em;
+  background-color: #89aac231;
 }
 
 .plancito p {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
-
+.plae{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
 /* CONTACTO */
 
 .contacto {
@@ -411,17 +422,17 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
   align-items: center;
   height: 500px;
 }
 
-.contacto form {
+form{
   display: flex;
   flex-direction: column;
-  max-width: 100%;
-  justify-content: center;
-  text-align: center;
+}
+
+form input{
+  padding: 20px 300px 20px 10px;
 }
 
 /* RESPONSIVE */
@@ -552,6 +563,11 @@ footer {
   }
   .planes-uni {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
   }
+  .plae{
+    display: flex;
+    flex-direction: row;
+  }
+  
 }
