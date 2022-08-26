@@ -20,6 +20,8 @@
 /* ESTILOS DEL HEADER */
 header {
   grid-area: header;
+  position: sticky ;
+  top: 0;
 }
 
 .logo {
@@ -461,6 +463,7 @@ form {
   border-right: none;
   border-left: solid 2px rgba(27, 20, 20, 0.726);
   border-bottom: solid 2px rgba(27, 20, 20, 0.726);
+  
 }
 
 .enviar {
